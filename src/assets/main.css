@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Mukta:wght@300;400&family=Nunito:wght@500&family=Oswald:wght@200;300;400&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: antiquewhite;
+  transition: all 0.3s ease 0s;
+}
+
+.logo{
+  cursor: pointer; 
+}
+
+li{
+  list-style-type: none;
+}
+#btn_modal{  
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+footer{
+  background-color: rgba(132, 192, 192, 0.1);
+  display: flex;
+  justify-content: center;
+}

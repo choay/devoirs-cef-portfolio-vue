@@ -2,9 +2,9 @@
   
     <nav class="nav_bar">
       <div>
-      <a href="#"><img class="logo" src="../logo/logo.png" alt="logo"></a>
+        <a href="#"><img class="logo" src="../logo/logo.png" alt="logo"></a>
       </div>
-      <a href="#" @click="toggle" class="toggle-button">
+      <a href="#" @click="toggle"  class="toggle-button">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -12,7 +12,7 @@
         <ul v-if="show">
           <li><a href="#about">à propos</a></li>
           <li><a href="#media">média social</a></li>
-          <li><a href="#">projets</a></li>
+          <li><a href="#projet">projets</a></li>
           <li><a href="#formContact">Contact</a></li>
         </ul>
       </nav>
@@ -23,6 +23,7 @@
 <script setup>
 import {ref} from 'vue'
 const show = ref(true)
+
 function toggle(){
   show.value=!show.value
 }
@@ -46,7 +47,9 @@ function toggle(){
     background-color:rgb(174, 175, 186) ;
     font-weight: bold;
   }
-  
+  a:active{
+    text-decoration: underline;
+  }
 .logo{
   margin-right: auto;
 }
@@ -85,6 +88,7 @@ function toggle(){
   .nav_bar ul{
     width: 100%;
     flex-direction: column;
+
   }
   .nav_bar li {
     text-align: center;

@@ -1,20 +1,32 @@
 <template>
-    <div class="projet_card">
+    <div class="projet_card" @click="showModal = true">
         <div class="project_img">
             <img class="imageProjet" :src="info_projet.url" :alt="info_projet.alt">
         </div>
-        <h3>{{ info_projet.titre }}</h3>
-   </div> 
+        <h3>{{ info_projet.titre }} </h3>
+    </div> 
+
+
+   <ModaleProjet :show="showModal" :info_projet_modal="info_projet" @close="showModal = false" />
+
 </template>
 
 <script setup>
+
+import { ref } from 'vue'
+import ModaleProjet from './ModaleProjet.vue';
     const props = defineProps(['info_projet'])
-  
+
+
+    const showModal = ref(false)    
+    
+    
+    
 </script>
 
 <style scoped>
     .projet_card{
-        width: 25%;
+        
         height: auto;
         padding: 6px;
         background-color: #f2f2f2;
@@ -25,8 +37,14 @@
     .imageProjet{
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 100%;
+        height: 200px;
+    
     }
+    @media screen and (max-width=600px) {
+        .imageProjet{
+            height: 150px;
+        }
+    }
+    
     
 </style>

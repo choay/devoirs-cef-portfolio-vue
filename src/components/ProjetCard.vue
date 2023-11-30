@@ -40,11 +40,7 @@ import ModaleProjet from './ModaleProjet.vue';
         height: 200px;
     
     }
-    @media screen and (max-width=600px) {
-        .imageProjet{
-            height: 150px;
-        }
-    }
+   
     
     
 </style>

@@ -28,9 +28,11 @@ function toggle(){
   show.value=!show.value
 }
 
+
 </script>
 
 <style scoped>
+ 
   .nav_bar{
     display: flex;
     top: 0;

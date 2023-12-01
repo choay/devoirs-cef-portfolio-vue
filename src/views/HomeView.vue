@@ -1,13 +1,16 @@
 <template>
     
     <NavBar/>
+    
     <Apropos/>
+    
         <h2 id="projet">Mes projets</h2>
         <div class="projets">
             <ProjetCard v-for="(card, i) in dataProjet" :key="i" :info_projet="card"/>
         </div>
 
         <h2 id="formContact">Evoyez votre message</h2>
+        
     <FormContactVue/>
 
     <FooterView/>
@@ -15,7 +18,7 @@
 </template>
 
 <script setup>
-
+    
     import { onMounted, ref } from 'vue'    
     import ProjetCard from '../components/ProjetCard.vue';
     import NavBar from '../components/NavBar.vue';
@@ -24,6 +27,9 @@
     import Apropos from '../components/Apropos.vue';
    
 //donnees projets 
+
+    const mobileView = true
+    const showNav = false
     const info = [
     {
         titre: 'CV en ligne',
@@ -75,6 +81,8 @@ onMounted(makeDataProjet)
 </script>
 
 <style scoped>
+   
+
     h2{
         text-align: center;
         padding: 6px;

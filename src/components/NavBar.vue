@@ -28,6 +28,10 @@ function toggle(){
   show.value=!show.value
 }
 
+let windowWidth = window.innerWidth
+if(windowWidth<600){
+  show.value = false
+}
 
 </script>
 

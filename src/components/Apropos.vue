@@ -5,7 +5,7 @@
         </div>
         <div class="presentation">
             <h1 id="about">Choayb Maghmouli</h1>
-            <h3>Développeur Web, Web mobile en formation.</h3>
+            <h3>Développeur Web, Web mobile.</h3>
             <p>Avec une expérience dans des laboratoires usines et entrepôt j’ai renforcé mes qualités humaines et professionnelles. Autonome, persévérant et fasciné par le développement et l'informatique, j'ai appris les bases de la creation des sites internet Html Css js en autodidacte .<br><br>
 
                 L'apprentissage est la seule chose que l'esprit n'épuise jamais, ne craint jamais et ne regrette jamais.

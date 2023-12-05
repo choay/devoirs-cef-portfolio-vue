@@ -6,7 +6,7 @@
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img src="../logo/mail.png" alt="logo de mail"></a>
         </div>
         <div>
-        <h5>&copy;2023</h5>
+        <h5>&copy;05/12/2023</h5>
         </div>
     </footer>
 </template>

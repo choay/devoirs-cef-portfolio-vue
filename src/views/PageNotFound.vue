@@ -22,7 +22,7 @@
     #not-found{
       display: flex;
       flex-direction: column;
-      top:0;
+      margin-top: 55px;
       bottom: 0;
       left: 0;
       right: 0;

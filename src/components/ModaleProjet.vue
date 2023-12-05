@@ -17,6 +17,7 @@
 </template>
 
 <script setup>
+
     const props = defineProps(['show','info_projet_modal'])
    
 </script>

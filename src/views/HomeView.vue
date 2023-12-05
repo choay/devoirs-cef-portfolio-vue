@@ -6,7 +6,8 @@
     
         <h2 id="projet">Mes projets</h2>
         <div class="projets">
-            <ProjetCard v-for="(card, i) in dataProjet" :key="i" :info_projet="card"/>
+            <ProjetCard v-for="(card, i) in dataProjet" :key="i" 
+            :info_projet="card"/>
         </div>
 
         <h2 id="formContact">Evoyez votre message</h2>
@@ -20,7 +21,7 @@
 <script setup>
     
     import { onMounted, ref } from 'vue'    
-    import ProjetCard from '../components/ProjetCard.vue';
+    import ProjetCard from '../components/ProjetCard.vue'
     import NavBar from '../components/NavBar.vue';
     import FooterView from '../components/FooterView.vue';
     import FormContactVue from '../components/FormContact.vue';
@@ -28,8 +29,6 @@
    
 //donnees projets 
 
-    const mobileView = true
-    const showNav = false
     const info = [
     {
         titre: 'CV en ligne',
@@ -43,7 +42,7 @@
         titre: 'Dynamiser un formulaire',
         url: '/src/assets/formulaire.png',
         alt: 'photo du formulaire dynamique',
-        techno: 'JavaScript',
+        techno: 'JavaScript, DOM',
         lienPdf: 'https://dynamiser-un-espace-commentaire.vercel.app/',
         lienGithub: 'https://github.com/choay/DynamiserUnEspaceCommentaire.git'
     },

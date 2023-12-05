@@ -23,11 +23,9 @@
 <script setup>
 import {ref} from 'vue'
 const show = ref(true)
-
 function toggle(){
   show.value=!show.value
 }
-
 let windowWidth = window.innerWidth
 if(windowWidth<600){
   show.value = false
@@ -55,6 +53,7 @@ if(windowWidth<600){
   }
   a:active{
     text-decoration: underline;
+    
   }
 .logo{
   margin-right: auto;

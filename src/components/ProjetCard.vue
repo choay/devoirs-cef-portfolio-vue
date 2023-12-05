@@ -5,23 +5,15 @@
         </div>
         <h3>{{ info_projet.titre }} </h3>
     </div> 
-
-
    <ModaleProjet :show="showModal" :info_projet_modal="info_projet" @close="showModal = false" />
-
 </template>
 
 <script setup>
-
 import { ref } from 'vue'
 import ModaleProjet from './ModaleProjet.vue';
     const props = defineProps(['info_projet'])
 
-
     const showModal = ref(false)    
-    
-    
-    
 </script>
 
 <style scoped>
@@ -38,9 +30,5 @@ import ModaleProjet from './ModaleProjet.vue';
         background-size: cover;
         background-position: center;
         height: 200px;
-    
-    }
-   
-    
-    
+    } 
 </style>

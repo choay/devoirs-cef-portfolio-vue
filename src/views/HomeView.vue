@@ -4,13 +4,13 @@
     
     <Apropos/>
     
-        <h2 id="projet">Mes projets</h2>
+        <h3 id="projet">Mes projets</h3>
         <div class="projets">
             <ProjetCard v-for="(card, i) in dataProjet" :key="i" 
             :info_projet="card"/>
         </div>
 
-        <h2 id="formContact">Evoyez votre message</h2>
+        <h3 id="formContact">Evoyez votre message</h3>
         
     <FormContactVue/>
 
@@ -82,7 +82,8 @@ onMounted(makeDataProjet)
 <style scoped>
    
 
-    h2{
+    h3{
+        font-size: 2rem;
         text-align: center;
         padding: 6px;
     }

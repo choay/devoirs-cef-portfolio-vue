@@ -4,8 +4,8 @@
             <img src="/photo-min.png" alt="photo de profile">
         </div>
         <div class="presentation">
-            <h1 id="about">Choayb Maghmouli</h1>
-            <h3>Développeur Web, Web mobile.</h3>
+            <h2 id="about">Choayb Maghmouli</h2>
+            <h1>Développeur Web, Web mobile.</h1>
             <p>Avec une expérience dans des laboratoires usines et entrepôt j’ai renforcé mes qualités humaines et professionnelles. Autonome, persévérant et fasciné par le développement et l'informatique, j'ai appris les bases de la creation des sites internet Html Css js en autodidacte .<br><br>
 
                 L'apprentissage est la seule chose que l'esprit n'épuise jamais, ne craint jamais et ne regrette jamais.

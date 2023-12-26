@@ -6,7 +6,7 @@
 
         <div class="modal_card">
                 <button class="btn" @click="$emit('close')">X</button>
-                <h3>{{ info_projet_modal.titre }}</h3>
+                <h5>{{ info_projet_modal.titre }}</h5>
                 <p>Technologies utilisés: {{ info_projet_modal.techno }}</p>
                 <p>Visitez : <a :href="info_projet_modal.lienPdf" target="_blank">{{ info_projet_modal.lienPdf }}</a></p>
                 <p>Lien GitHub: <a :href="info_projet_modal.lienGithub" target="_blank">{{ info_projet_modal.lienGithub }}</a></p>
@@ -51,7 +51,8 @@
 .modal_card p{
     padding: 6px;
 }
-.modal_card h3{
+.modal_card h5{
+    font-size: 2rem;
     margin: 10px;
 }
 .modal_card a{
